@@ -1,0 +1,29 @@
+.login__bg {
+  background-image: url(https://images.unsplash.com/photo-1577563908411-5077b6dc7624?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80);
+  height: 92vh;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  overflow-x: hidden;
+}
+.loginImage {
+  filter: drop-shadow(0px 0px 10px #0000004c);
+  @apply w-[48rem];
+}
+.password {
+  /* box-shadow: 2px 2px 100px 1px rgba(240, 248, 255, 0.274); */
+
+  @apply font-Oswald border-2 rounded-lg border-slate-500 outline-none text-slate-700 text-4xl
+      py-5 px-4;
+}
+.email {
+  /* box-shadow: 2px 2px 100px 1px rgba(240, 248, 255, 0.176); */
+  @apply font-Oswald border-2 rounded-lg border-slate-500 w-full outline-none  bg-transparent text-4xl py-5 px-4 text-slate-700;
+}
+.loginContainer {
+  filter: drop-shadow(0px 0px 3px white);
+
+  @apply w-full h-full rounded-lg flex
+      items-center justify-center 
+      text-slate-50;
+}

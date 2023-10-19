@@ -1,0 +1,7 @@
+.heading {
+  @apply text-9xl  font-Oswald font-bold tracking-wider text-secondaryColor;
+}
+.mainImage {
+  filter: drop-shadow(0px 0px 10px #0000004c);
+  @apply w-[56rem];
+}

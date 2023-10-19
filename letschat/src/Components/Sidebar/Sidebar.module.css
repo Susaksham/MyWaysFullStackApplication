@@ -1,0 +1,48 @@
+.chatNav {
+  border-bottom-left-radius: 2rem;
+  border-bottom-right-radius: 2rem;
+  @apply flex items-center justify-between py-6
+      px-16 bg-primaryColorDull;
+}
+.member-status-img {
+  border-radius: 100%;
+  object-fit: cover;
+  aspect-ratio: 1/1;
+  @apply w-24;
+}
+
+.member-status {
+  margin-bottom: 0;
+  position: relative;
+}
+
+.sidebar-online-status {
+  color: green;
+}
+
+.sidebar-offline-status {
+  color: #e3b505;
+}
+
+.sidebar-offline-status,
+.sidebar-online-status {
+  font-size: 11px;
+  position: absolute;
+  z-index: 99;
+  bottom: 0;
+  left: 12px;
+}
+
+.search {
+  color: #ffffff;
+
+  border: 2px solid #ffffff;
+  border-radius: 1rem;
+  /* background: url("../../assets/icons8-search-100\ \(1\).png") no-repeat; */
+  background-size: 3rem;
+  background-position: 1rem;
+
+  outline: none;
+
+  @apply w-3/4 outline-none border-2 border-secondaryColor text-3xl py-4 pl-[5rem] text-primaryColor bg-secondaryColor;
+}

@@ -1,0 +1,98 @@
+.messages-output {
+  height: 100%;
+
+  overflow-y: auto;
+
+  border-radius: 1.6rem;
+  @apply rounded-lg border-primaryColor;
+}
+
+.messages-output::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  display: none;
+  background-color: #ffff;
+}
+
+.messages-output::-webkit-scrollbar {
+  width: 1.6rem;
+  display: none;
+  background-color: #f5f5f5;
+}
+
+.messages-output::-webkit-scrollbar-thumb {
+  border-radius: 1.6rem;
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  display: none;
+  background-color: #9455f0;
+}
+
+.message-inner {
+  margin-left: 2rem;
+  margin-bottom: 1rem;
+  padding: 1rem;
+  min-width: fit-content;
+  max-width: 80%;
+  text-align: left;
+  min-height: fit-content;
+  font: 400 1em, sans-serif;
+  display: inline-block;
+  border-radius: 1rem;
+
+  font-family: "Poppins", sans-serif;
+  @apply bg-primaryColor text-slate-50 shadow-black shadow-md;
+}
+
+.incoming-message .message-inner {
+  /* background-color: #ffdab9; */
+  background-color: #191818dc;
+  color: white;
+}
+
+.incoming-message {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 2rem;
+}
+
+.message-timestamp-left {
+  font-size: 0.85em;
+  font-weight: 300;
+  margin-top: 1rem;
+}
+
+.message-sender {
+  margin-bottom: 0.5rem;
+  font-weight: bold;
+}
+
+.message-date-indicator {
+  width: 15rem;
+  margin: 0 auto;
+}
+
+.conversation-info {
+  padding: 0;
+  margin: 0 auto;
+  text-align: center;
+  height: 10rem;
+}
+
+.conversation-profile-pic {
+  width: 6rem;
+  height: 6rem;
+  object-fit: cover;
+  margin: 1rem auto;
+  margin-bottom: 3rem;
+  border-radius: 50%;
+  margin-left: 1rem;
+}
+.messageContainer {
+  background-image: url("../../assets/pxfuel.jpg");
+  object-fit: cover;
+  background-position: center;
+  background-size: contain;
+  @apply flex flex-col h-full justify-between;
+}
+.messageSender {
+  @apply w-full bg-primaryColor;
+}
