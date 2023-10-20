@@ -54,10 +54,21 @@ Navigate to the letschat-backend(backend) directory:
 
 ```bash
 cd letschat-backend
+cd backend
 npm i
 ```
 
 This will install all backend packages specified in the package.json file.
+
+### Start Backend Development Server:
+
+After installing dependencies, start the backend development server:
+
+```bash
+npm server.js
+```
+
+The frontend server will be accessible at http://localhost:5173/.
 
 ## Set Up Environment Variables
 
